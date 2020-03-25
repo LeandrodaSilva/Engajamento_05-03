@@ -49,6 +49,6 @@ public class App {
 
     private static void exibirLista() {
         System.out.println("----- Lista de nomes -----");
-        listaAlunos.forEach(System.out.println);
+        listaAlunos.forEach(aluno -> System.out.println(aluno));
     }
 }
